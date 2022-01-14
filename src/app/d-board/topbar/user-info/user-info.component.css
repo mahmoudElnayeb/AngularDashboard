@@ -1,0 +1,50 @@
+/* user component */
+.userInfo {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+/* user image */
+.userInfo img {
+  box-shadow: 5px rgb(0, 0, 0);
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+/* user name  */
+.userInfo h5 {
+  color: #222;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin-bottom: 0rem;
+}
+/* user role */
+.userInfo h5 small {
+  color: #8390a2;
+  display: block;
+  padding-left: 3rem;
+}
+
+@media only screen and (max-width:1200px){
+  .leftMenu{ width: 70px;}
+
+.leftMenu .logo h3 span:last-child,
+.leftMenu li a span:last-child{
+  display: none;
+}
+.body{
+  margin-left: 90px;
+}
+.body header{
+  width: calc(100% - 70px);
+  left: 70px;
+}
+}
+
+
+.rtl{
+  direction: rtl;
+  text-align: center;
+}
