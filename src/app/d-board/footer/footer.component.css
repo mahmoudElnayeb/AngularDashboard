@@ -1,0 +1,48 @@
+footer{
+  position: fixed;
+  display: flex;
+  bottom: 0;
+}
+span{
+  display: flex;
+  color: blue;
+  left: 0;
+  bottom: 0;
+}
+ small{
+   display: flex;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   color: brown;
+ }
+ @media only screen and  (max-width:1200px){
+   footer{
+     display: none;
+     visibility: hidden;
+
+   }
+ }
+ @media only screen and  (max-width:768px){
+  footer{
+    display: none;
+    visibility: hidden;
+
+  }
+ }
+ @media only screen and  (max-width:960px){
+  footer{
+    display: none;
+    visibility: hidden;
+
+  }
+ }
+ @media only screen and  (max-width:700px){
+  footer{
+    display: none;
+    visibility: hidden;
+
+  }
+ }
+
+

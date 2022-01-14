@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+
+:root{
+  --dashboard-main-color:#DD2F6E;
+  --dashboard-color-dark:#1D2231;
+  --dashboard-color-text:#8390A2;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
